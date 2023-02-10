@@ -1,0 +1,228 @@
+.section1 {
+  width: 100%;
+  height: 700px;
+  background-image: url("/IMGS/h2-sl1.webp");
+  background-size: auto;
+}
+
+.section1 .img-cont {
+  width: 50%;
+  height: 420px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 15%;
+}
+
+.section1 .img-cont .icon1 {
+  width: 15%;
+  height: 300px;
+}
+
+.section1 .img-cont .icon1 .fa-angle-left {
+  padding: 25px;
+  background-color: #BB0B0B;
+  color: white;
+  margin-top: 60%;
+  margin-left: 8%;
+}
+
+.section1 .img-cont .icon1 .fa-angle-right {
+  padding: 25px;
+  background-color: #BB0B0B;
+  color: white;
+  margin-top: 16%;
+  margin-left: 8%;
+}
+
+.section1 .img-cont .box-h1 {
+  width: 90%;
+  height: 420px;
+}
+
+.section1 .img-cont .box-h1 h5 {
+  font-size: 18px;
+  color: #c41919;
+  margin-left: 47px;
+}
+
+.section1 .img-cont .box-h1 h1 {
+  color: black;
+  font-size: 80px;
+  font-family: sans-serif;
+  font-weight: 900px;
+  margin-left: 47px;
+}
+
+.section1 .img-cont .box-h1 p {
+  color: #df0d0d;
+  font-size: 17px;
+  font-family: sans-serif;
+  font-weight: 800px;
+  margin-left: 47px;
+}
+
+.section1 .img-cont .box-h1 button {
+  font-size: 17px;
+  font-family: sans-serif;
+  padding: 15px 26px;
+  border: none;
+  background-color: #BB0B0B;
+  color: white;
+}
+
+.cont1 {
+  width: 100%;
+  background-color: white;
+}
+
+.cont1 .container {
+  height: 340px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cont1 .container .col-6 .box-1left {
+  width: 100%;
+}
+
+.cont1 .container .col-6 .box-1left p {
+  font-family: sans-serif;
+  font-weight: 600;
+  color: #BB0B0B;
+}
+
+.cont1 .container .col-6 .box-1right {
+  width: 100%;
+  padding-top: 33px;
+}
+
+.container {
+  width: 100%;
+  height: 490px;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 8%;
+}
+
+.container .leftbox {
+  width: 46%;
+  height: 600px;
+}
+
+.container .leftbox button {
+  font-size: 17px;
+  font-family: sans-serif;
+  padding: 15px 26px;
+  border: none;
+  background-color: #BB0B0B;
+  color: white;
+  margin-top: 8%;
+}
+
+.container .leftbox h5 {
+  margin-top: 5%;
+  color: #BB0B0B;
+}
+
+.container .leftbox h3 {
+  font-size: 18px;
+  position: relative;
+}
+
+.container .leftbox h3 span {
+  position: absolute;
+  right: 12%;
+}
+
+.container .leftbox .h33 {
+  margin-top: 8%;
+  font-size: 18px;
+  position: relative;
+}
+
+.container .leftbox pre {
+  margin-top: 5%;
+}
+
+.container .leftbox .box92 {
+  width: 90%;
+  height: 10px;
+  background-color: #cccccc;
+}
+
+.container .leftbox .box92 .box92-red {
+  width: 90%;
+  height: 10px;
+  background-color: #b10e0e;
+}
+
+.container .rightbox {
+  width: 54%;
+  height: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .rightbox .rightimg {
+  width: 90%;
+  height: 550px;
+  border-radius: 12px 0px 0px 12px;
+  background-image: url("/IMGS/about-2.png");
+  background-size: cover;
+  position: relative;
+}
+
+.container .rightbox .rightimg .red-box {
+  width: 170px;
+  height: 140px;
+  background-color: #BB0B0B;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: absolute;
+  top: 409px;
+  left: 1px;
+  border-radius: 0px 0px 0px 12px;
+}
+
+.container .rightbox .rightimg .red-box h1 {
+  color: white;
+  font-size: 70px;
+  font-family: sans-serif;
+  font-weight: 700px;
+}
+
+.container .rightbox .rightimg .red-box h3 {
+  color: white;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+/*# sourceMappingURL=style.css.map */

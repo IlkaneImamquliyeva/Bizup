@@ -1,0 +1,30 @@
+.cont1 {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+
+    .container {
+        height: 340px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .col-6 {
+            .box-1left {
+                width: 100%;
+
+                p {
+                    font-family: sans-serif;
+                    font-weight: 600;
+                    color: #BB0B0B;
+                }
+            }
+        }
+
+        .col-6 {
+            .box-1right {
+                width: 100%;
+                padding-top: 33px;
+            }
+        }
+    }
+}
